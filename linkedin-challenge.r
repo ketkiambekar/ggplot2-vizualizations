@@ -2,7 +2,6 @@ library(tidyverse)
 library(ggplot2)
 library(ggmap)
 
-register_google(key="AIzaSyDk7OPYBAwZBHKX19Kxkpe_x1P71YOO56c")
 
 college <- read_csv("http://672258.youcanlearnit.net/college.csv")
 summary(college)
